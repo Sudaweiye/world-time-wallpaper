@@ -20,6 +20,12 @@
 3. 在 Rainmeter 中刷新皮肤列表并加载 `WorldTimeOverlay.ini`。
 4. 将 `assets/cover.png` 设置为桌面壁纸。
 
+也可以直接运行安装脚本，它会复制皮肤、载入世界时钟，并创建 Windows 启动项：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/install_rainmeter_overlay.ps1
+```
+
 ### 重新生成图片
 
 ```powershell
@@ -46,6 +52,12 @@ python scripts/generate_timezone_wallpaper.py
 2. 將 `rainmeter/WorldTimeOverlay` 複製到 `Documents/Rainmeter/Skins/`。
 3. 在 Rainmeter 中重新整理皮膚列表並載入 `WorldTimeOverlay.ini`。
 4. 將 `assets/cover.png` 設為桌面壁紙。
+
+也可以直接執行安裝腳本，它會複製皮膚、載入世界時鐘，並建立 Windows 啟動項：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/install_rainmeter_overlay.ps1
+```
 
 ### 重新生成圖片
 
@@ -74,6 +86,12 @@ A night-world-map desktop wallpaper project with a Rainmeter overlay for live wo
 3. Refresh Rainmeter and load `WorldTimeOverlay.ini`.
 4. Set `assets/cover.png` as the desktop wallpaper.
 
+You can also run the installer script. It copies the skin, loads the world clock, and creates a Windows startup shortcut:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/install_rainmeter_overlay.ps1
+```
+
 ### Regenerate Images
 
 ```powershell
@@ -101,6 +119,12 @@ Un projet de fond d'écran de bureau inspiré d'une carte du monde nocturne, acc
 3. Actualisez Rainmeter et chargez `WorldTimeOverlay.ini`.
 4. Définissez `assets/cover.png` comme fond d'écran du bureau.
 
+Vous pouvez aussi lancer le script d'installation. Il copie le skin, charge l'horloge mondiale et crée un raccourci de démarrage Windows :
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/install_rainmeter_overlay.ps1
+```
+
 ### Régénérer les images
 
 ```powershell
@@ -113,4 +137,3 @@ Le script télécharge l'image nocturne de la Terre de la NASA via Wikimedia Com
 ## Credits
 
 Earth city lights source: NASA / Wikimedia Commons, accessed through [City Lights 2012 - Flat map](https://commons.wikimedia.org/wiki/Special:FilePath/City_Lights_2012_-_Flat_map.jpg).
-
